@@ -1,0 +1,201 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+nav {
+    background-color: darkred;
+    color: rgb(255, 183, 0);
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+}
+
+.logo h2 {
+    margin-left: 8px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    line-height: 0.4;
+    font-size: 40px;
+}
+.logo h2 span {
+    color: rgb(5, 5, 5);
+    font-size: 18px;
+    font-style: normal;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    flex-wrap: wrap;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+nav a {
+    text-decoration: none;
+    color: bisque;
+}
+
+nav a:hover {
+    color: rgb(255, 183, 0);
+    text-decoration: underline;
+}
+
+nav button {
+    background-color: rgb(255, 183, 0);
+    color: black;
+    padding: 10px 9px;
+    border: none;
+    border-radius: 15px;
+    cursor:pointer;
+}
+nav button:hover {
+    color: darkred;
+    background-color:bisque;
+}
+
+.hero-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55)), url('/src/assets/avdc.jpeg');
+    height: 88vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-content {
+    text-align: center;
+    color: white;
+    max-width: 600px;
+    text-shadow: 1px 1px 5px black;
+}
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 5px;
+}
+.hero-content p {
+    font-size: 1.3rem;
+    margin-bottom: 25px;
+    color:rgb(255, 183, 0);
+}
+
+.explorebutt {
+    background-color: darkred;
+    color:rgb(250, 248, 246);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight:lighter;
+}
+.explorebutt:hover{
+    color: black;
+    background-color: bisque;
+}
+.menu-section {
+    padding: 10px 10px;
+    background-color: darkred;
+    color: black;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.menu-section h2 {
+    color: bisque;
+    text-shadow: 2px 2px 7px black;
+    margin-bottom: -5px;}
+.menu-section img {
+    width: 100%;
+    height: 100%;
+}
+
+.featured {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 183, 0);
+    color: black;
+    padding: 10px;
+    border-radius: 15px;
+    width: 200px;
+    height: 250px;
+    align-items: center;
+    overflow: hidden;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+#fab {
+background-color: black;
+color: bisque;
+border: none;
+padding: 10px 20px;
+border-radius: 10px;
+cursor: pointer;
+width: 100%;
+}
+#fab:hover{
+color: black;
+background-color: bisque;
+}
+
+#cob {
+background-color: black;
+color: bisque;
+border: none;
+padding: 10px 20px;
+border-radius: 10px;
+cursor: pointer;
+width: 100%
+}
+#cob:hover {
+color: black;
+background-color: bisque;
+}
+
+#sub {
+background-color: black;
+color: bisque;
+border: none;
+padding: 10px 20px;
+border-radius: 10px;
+cursor: pointer;
+width: 100%;
+}
+#sub:hover {
+color: black;
+background-color: bisque;
+}
+#emb {
+background-color: black;
+color: bisque;
+border: none;
+padding: 10px 20px;
+border-radius: 10px;
+cursor: pointer;
+width: 100%;
+}
+#emb:hover{
+color: black;
+background-color: bisque;
+}
