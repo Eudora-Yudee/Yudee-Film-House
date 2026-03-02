@@ -68,13 +68,14 @@ nav button:hover {
 }
 
 .hero-section {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.55)), url('/src/assets/avdc.jpeg');
     height: 88vh;
-    background-size: cover;
-    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('../assets/avdc.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .hero-content {
     text-align: center;
